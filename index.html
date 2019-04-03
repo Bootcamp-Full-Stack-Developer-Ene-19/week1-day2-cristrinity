@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="formacion.html">
+                <ul id="formacion"></a>
+                    <li class="opcion-formacion"><a href="#">Formación</a></li>
+                    <li class="opcion-formacion"><a href="#">Angular 7 + Animations - <small class="fechas-formacion">18 Enero 19</small></a></li>
+                    <li class="opcion-formacion"><a href="#">Angular 7 Avanzado - <small class="fechas-formacion">Próximamente</small></a></li>
+                    <li class="opcion-formacion"><a href="#">Docker + Kubernetes - <small class="fechas-formacion">Próximamente</small></a></li>
+                    <li class="opcion-formacion"><a href="#">NodeJS - <small class="fechas-formacion">Próximamente</small></a></li>
+                    <li class="opcion-formacion"><a href="#">VueJS 2 - <small class="fechas-formacion">Próximamente</small></a></li>
+                    <li class="opcion-formacion"><a href="#">CSS y SASS avanzado - <small class="fechas-formacion">Próximamente</small></a></li>
+                </ul>
+            <div class="buscador-div">
+                <form name="buscador-form" action="#">
+                    <span>Buscar en Campus</span>
+                    <input id="buscador-input" type="search">
+                    <select name="carga-sugeridos hidden">
+                        <optgroup id="resultados">
+                            <option id="carga-dinamica" value=""></option>
+                        </optgroup>
+                        <optgroup class="separador">
+                            <option value="otro-cursos">Otros cursos de formación</option>
+                            <option value="bootcamp">Bootcamp</option>
+                        </optgroup>
+                    </select>
+                    <input type="button" value="submit" name="Buscar">
+                </form>
+            </div>
+        </nav>
+    </header> 
+
+    <main>
+
+        <section id="saludo">
+            <h1>¡Hola a todos!</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut possimus modi culpa consequatur deleniti, expedita laboriosam eligendi <strong>ipsam nam distinctio sint velit</strong> blanditiis placeat soluta nihil error assumenda fugiat voluptatum?</p>
+            <button class="info">Más información</button>
+        </section>
+
+        <section id="seccion-articulos">
+
+            <div class="articulo-div col-12">
+
+                <article class="articulo col-4">
+                    <title>Docker 7 Animations</title>                    
+                    <img class="articulo-img" src="foto.jpg" width="100" height="100">
+                    <p class="articulo-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, quis
+                        corrupti voluptates magni libero consequatur magnam molestiae ipsa dolorum ducimus voluptatum
+                        culpa autem cum quaerat unde quas, vel adipisci quos?</p>
+                </article>
+                <article class="articulo col-4">
+                    <title>Docker + Kubernets</title>
+                    <img class="articulo-img" src="foto.jpg" width="100" height="100">
+                    <p class="articulo-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, quis
+                        corrupti voluptates magni libero consequatur magnam molestiae ipsa dolorum ducimus voluptatum
+                        culpa autem cum quaerat unde quas, vel adipisci quos?</p>
+                </article>
+                <article class="articulo col-4">
+                    <title>NodeJS</title>
+                    <img class="articulo-img" src="foto.jpg" width="100" height="100">
+                    <p class="articulo-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, quis
+                        corrupti voluptates magni libero consequatur magnam molestiae ipsa dolorum ducimus voluptatum
+                        culpa autem cum quaerat unde quas, vel adipisci quos?</p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="convocatorias">
+
+            <div class="azul col-12">
+                
+                <article id="video">
+                <title>Próximas convocatorias</title>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, facere maxime illum a accusamus, animi soluta aliquid consequuntur neque totam libero doloremque blanditiis veritatis odit tenetur eligendi beatae! Ad, obcaecati.</p>
+                <form action="#" >
+                    <span>Indica tu correo electrónico</span>
+                    <input type="email" form="email" placeholder="Introduce un email válido">
+                    <button type="submit">Me apunto!</button>
+                </form>
+                <video src="mivideo.mp4"></video>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="servicios-apoyo">
+
+            <div class="col-12">
+                <h2>Servicios de apoyo profesional</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quidem inventore deserunt voluptatibus, ab suscipit possimus tempora ad rem dolores, fuga facilis debitis necessitatibus quisquam distinctio veritatis sunt, blanditiis reprehenderit!</p>
+                <a href="#"><button class="lorem">Lorem Ipsum</button></a>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer>
+        <div class="linea col-8">
+            <ul>
+                    <li class="link-footer active"><a href="#">Inicio</a></li>
+                    <li class="link-footer"><a href="servicios.html">Servicios</a></li>
+                    <li class="link-footer"><a href="nosotros.html">Nosotros</a></li>
+                    <li class="link-footer"><a href="formacion.html">Formación</a></li>
+                    <li class="link-footer"><a href="referencias.html">Referencias</a></li>
+                    <li class="link-footer"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="col-4">
+            <span class="copyright">© Copyright 2018</span>
+        </div> 
+
+    </footer>
+
+</body>
+
+</html>
