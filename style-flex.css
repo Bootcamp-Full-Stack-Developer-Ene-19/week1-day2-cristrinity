@@ -1,0 +1,47 @@
+nav{
+    display: flex; 
+    position: absolute;}
+
+.navbar{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.navbar__item{
+display: inline-flex;
+}
+
+.dropdown__menu{
+    display: none;
+}
+.search{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.search__labe{
+    display: inline-flex;
+flex: flex-end;
+
+}
+.jumbotron{
+    display: inline-block;
+    position: relative;
+}
+.media{
+    display: flex;
+    
+}
+.subscription{
+    justify-content: center;
+    padding: 10px 25%;
+
+}
+.subscription__container{
+    display: inline-flex;
+    align-items: flex-end;
+}
+video{
+    flex-basis: 100%    
+}
+
